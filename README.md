@@ -1,18 +1,14 @@
+#완전탐색
 
-
-
-완전탐색
-
-recursive(situation) {
-    int count = 0;
-    for (all possible cases in given situation)
-    {
-        apply new situation
-        count += recursive(new situation)
-        cancel new situation
+    recursive(situation) {
+        int count = 0;
+        for (all possible cases in given situation)
+        {
+            apply new situation
+            count += recursive(new situation)
+            cancel new situation
+        }
+        return count;
     }
-    return count;
-}
-
-
-std::cout << recursive(all cases) 
+    std::cout << recursive(all cases) << std::endl;
+    
