@@ -1,4 +1,4 @@
-#완전탐색
+# 완전탐색
 
     recursive(situation) {
         int count = 0;
